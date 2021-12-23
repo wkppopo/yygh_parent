@@ -22,11 +22,15 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <scope>provided</scope>
         </dependency>
-        <!--swagger-->
+        <!--swagger框架 专门用来开发api文档 -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
         <!--简单excel-->
         <dependency>
@@ -46,7 +50,6 @@
             <artifactId>fastjson</artifactId>
             <scope>provided</scope>
         </dependency>
-
 
 
     </dependencies>

@@ -12,4 +12,12 @@
     <artifactId>service_utils</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+    </dependencies>
+
+
 </project>

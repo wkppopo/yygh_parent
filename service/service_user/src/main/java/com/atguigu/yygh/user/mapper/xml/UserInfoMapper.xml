@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--使用 Mapper 进行开发时，需要遵循以下规则：
+mapper 映射文件中 namespace 必须与对应的 mapper 接口的完全限定名一致。
+mapper 映射文件中 statement 的 id 必须与 mapper 接口中的方法的方法名一致
+mapper 映射文件中 statement 的 parameterType 指定的类型必须与 mapper 接口中方法的参数类型一致。
+mapper 映射文件中 statement 的 resultType 指定的类型必须与 mapper 接口中方法的返回值类型一致。-->
+
+<mapper namespace="com.atguigu.yygh.user.mapper.UserInfoMapper">
+
+
+</mapper>
